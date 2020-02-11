@@ -1,6 +1,6 @@
 import React from 'react';
-import './styles/footer.scss';
 import { Link } from 'react-router-dom';
+import '../styles/footer.scss';
 
 
 import { makeStyles } from '@material-ui/core/styles';
@@ -8,6 +8,7 @@ import FormControl from '@material-ui/core/FormControl';
 import Input from '@material-ui/core/Input'
 import InputLabel from '@material-ui/core/InputLabel';
 import FormHelperText from '@material-ui/core/FormHelperText';
+
 
 
 
@@ -23,9 +24,15 @@ function Footer() {
       </div>
 
       <div>
+        <Link to='/about'>About</Link>
+      </div>
+
+      <div>
         <p class="">Legal</p>
         <Link to="/terms-conditions">Terms and Conditions</Link>
         <Link to="/privacy-policy">Privacy Policy</Link>
+        <Link to="/accessibility-statement">Accessibility Statement</Link>
+        <Link to="/cookie-policy">Cookie Policy</Link>
       </div>
 
       <div>

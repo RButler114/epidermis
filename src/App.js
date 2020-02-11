@@ -1,15 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router } from 'react-router-dom';
+import RouteList from './RouteList.js'
+
 import './styles/App.scss';
 import './styles/global.scss';
 
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Nav from './Nav.js'
-import Footer from './Footer.js'
-
-import About from './routes/About.js'
-import Home from './routes/Home.js'
-
+import Nav from './components/Nav.js'
+import Footer from './components/Footer.js'
 
 
 function App() {
@@ -17,15 +14,11 @@ function App() {
     <div className="App">
       <Router>
         <Nav/>
-        <Switch>
-          <Route path="/about" component={About} />
-          <Route exact path="/" component={Home} />
-        </Switch>
-      </Router>
 
+        <div className="main-outlet">
+          <RouteList/>
+        </div>
 
-      
-      <Router>
         <Footer/>
       </Router>
     </div>
