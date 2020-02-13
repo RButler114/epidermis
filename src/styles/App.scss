@@ -1,5 +1,12 @@
+/*- Constants: Specifications -*/
+  $max_width: 1560px;
+  $body_font : "";
+  $cdn: "//cdn.infectious-nerve.com/";
+/* ************************** */   
+
+
 .main-outlet{
-  height:  600px;
+  height:  800px;
 }
 .App {
   text-align: center;
@@ -38,4 +45,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+/********* review this */
+nav{
+  background-color: gray;
 }

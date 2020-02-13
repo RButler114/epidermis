@@ -1,0 +1,14 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# assets
+
+
+# compiled output
+
+# dependencies
+/node_modules
+/bower_components
+
+# reporting
+
+# misc

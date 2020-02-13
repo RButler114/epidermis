@@ -6,6 +6,9 @@ import Home from './routes/Home.js'
 import Accessibility from './routes/AccessibilityStatement.js'
 import Content from './routes/content/index.js'
 import CookiePolicy from './routes/CookiePolicy.js'
+import NotFound from './routes/404.js'
+
+
 
 function RouteList() {
   return (
@@ -15,6 +18,7 @@ function RouteList() {
 	    <Route path="/cookie-policy" component={CookiePolicy} />
 	    <Route path="/c" component={Content} />
 	    <Route exact path="/" component={Home} />
+      <Route component={NotFound} />
 	  </Switch>
   );
 }
