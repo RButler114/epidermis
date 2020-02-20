@@ -1,6 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import RouteList from './RouteList.js'
+import { Container } from 'react-bootstrap';
+
 
 import './styles/App.scss';
 import './styles/global.scss';
@@ -15,9 +17,9 @@ function App() {
       <Router>
         <Nav/>
 
-        <div className="main-outlet">
+        <Container className="main-outlet">
           <RouteList/>
-        </div>
+        </Container>
 
         <Footer/>
       </Router>
