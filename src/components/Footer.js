@@ -43,6 +43,8 @@ function Footer() {
                 <a className="social-icon" target="_blank" href=""><img className="social-icon" alt="Twitter" src={process.env.PUBLIC_URL + '/assets/Twitter_Social_Icon_Circle_Color.png'}/></a>
               </div>
             </div>
+
+            <p>Have a suggestion to help make the site better? <a href="#">Send it over</a>, we love feedback!</p>
           </div>    
         </Row>
       </Container>
