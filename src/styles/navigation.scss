@@ -1,3 +1,63 @@
+@import 'colors.scss';
+
+
+
+.accountModal{
+	z-index: 9999;
+	width: 700px;
+	height: 500px;
+	background-color: $spaceCadet;
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -250px 0 0 -350px;
+  display: flex;
+  flex-direction: row;
+
+  .account-benifits{
+  	width: 50%;
+  	background-color: $crimson;
+  }
+  .account-entry{
+  	width: 50%;
+  	text-align: center;
+  	color: white;
+  }
+  .account-entry-connectButton{
+  	width: 225px;
+  	padding:10px;
+  	border-radius: 20px;
+  	display: block;
+  	margin: 0 auto;
+  	font-weight: 500;
+  	transition: background-color .25s;
+
+		@media only screen and (min-width: 600px) {
+			margin-top: 15px;
+		}
+
+
+  	&.facebook{
+  		background-color:$facebookBlue;
+  		&:hover{
+  			background-color:$facebookBlueDarken;
+  		}
+  	}
+  	&.twitter{
+  		background-color:$twitterBlue;
+  		&:hover{
+  			background-color:$twitterBlueDarken;
+  		}
+  	}
+  	&.google{
+  		border: 1px solid;
+  		&:hover{
+  			background-color: #d3d3d3;
+  		}
+  	}
+  }
+}
+
 /********* review this */
 .nav_spacer{
 	width: 100vw;
@@ -11,19 +71,27 @@ nav{
 
 .nav_leadbar{
 	width: 100vw;
-	height: 40px;
+	padding:10px;
 	background-color: red;
 	z-index: 9998;
  	position: fixed;
  	top: 0;
  	opacity:1;
- 	background-color: rgba(206,206,206,0.75)
+ 	background-color: rgba(206,206,206,0.75);
+
+ 	.nav_leadbard_links button{
+ 		margin-right: 10px;
+
+ 		&:last-child{
+ 			margin-right: 0px;
+ 		}
+ 	}
 }
 
 #nav__sidebar{
 	width: 280px;
 	height: 100vh;
-	background-color: white;
+	background-color: $lavenderGray;
 	box-shadow: -0px 0px 15px 0px rgba(0,0,0,0.75);
 	position: fixed;
 	top: 0;

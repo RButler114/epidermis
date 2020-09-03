@@ -40,20 +40,20 @@ function CookiePolicy() {
       <p>You can choose whether or not to accept cookies and other technologies, as explained below. However, you should be aware that disabling cookies may prevent you from enjoying the full functionality of the Services.</p>
       <p>Most browsers allow you to change your cookie settings. The “Options” or “Preferences” menu of most browsers detail how to prevent your browser from accepting new cookies, how to have the browser notify you when you receive a new cookie and how to disable cookies altogether. Your browser’s settings may also allow you to disable or delete similar technologies and data used by browser add-ons (such as Flash cookies), for instance by changing the add-on’s settings or clearing browser storage. Browser manufacturers provide help pages relating to cookie management in their products. Please see below for more information:</p>
       <ul>
-        <li><a target="_blank" href="">Google Chrome</a></li>
-        <li><a target="_blank" href="">Internet Explorer</a></li>
-        <li><a target="_blank" href="">Mozilla Firefox</a></li>
-        <li><a target="_blank" href="">Safari (Desktop)</a></li>
-        <li><a target="_blank" href="">Safari (Mobile)</a></li>
-        <li><a target="_blank" href="">Andriod Browser</a></li>
-        <li><a target="_blank" href="">Opera</a></li>
-        <li><a target="_blank" href="">Opera Mobile</a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="">Google Chrome</a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="">Internet Explorer</a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="">Mozilla Firefox</a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="">Safari (Desktop)</a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="">Safari (Mobile)</a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="">Andriod Browser</a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="">Opera</a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="">Opera Mobile</a></li>
       </ul>
       <p>For other browsers, please consult the documentation that your browser manufacturer provides.</p>
       <p>If you only want to limit third party advertising cookies, you can turn off most of these cookies by visiting the following links (but be aware that not all of the companies listed on these sites drop cookies via our Services):</p>
-      <a target="_blank" href="https://www.youronlinechoices.com">Your Online Choices</a>
-      <a target="_blank" href="https://optout.networkadvertising.org/?c=1#!%2F">Network Advertising Initiative</a>
-      <a target="_blank" href="http://www.aboutads.info/consumers">Digital Advertising Alliance</a>
+      <a target="_blank" rel="noopener noreferrer" href="https://www.youronlinechoices.com">Your Online Choices</a>
+      <a target="_blank" rel="noopener noreferrer" href="https://optout.networkadvertising.org/?c=1#!%2F">Network Advertising Initiative</a>
+      <a target="_blank" rel="noopener noreferrer" href="http://www.aboutads.info/consumers">Digital Advertising Alliance</a>
       <p>You can opt out of interest-based targeting provided by participating ad services through the Digital Advertising Alliance’s YourAdChoices. In addition, on your iPhone, iPad or Android, you can change your device settings to control whether you see online interest-based ads.</p>
       <p>For Google Analytics, you can opt-out through Google Ads Settings, Ad Settings for mobile apps, or any other available means (e.g. the NAI’s consumer opt-out listed above). Google also provides a Google Analytics opt-out plug-in for the web.</p>
       <p>Please note that even if you opt-out and limit cookies or these third party tracking technologies, they may still collect data and you may still see ads, but they will not be targeted based on information collected through these technologies.</p>
